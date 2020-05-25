@@ -1,0 +1,140 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #b92b27, #1565c0)
+} */
+
+.box {
+    width: 590px;
+    padding: 20px;
+    position: center;
+    top: 70%;
+    
+    background:#F5F5F5;
+    ;
+    text-align: center;
+    transition: 0.25s;
+    
+}
+
+.box input[type="text"],
+.box input[type="password"]
+.box input[type="date"]
+.box input[type=""] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color:#000144;
+    border-radius: 24px;
+    transition: 0.25s
+}
+
+.box h1 {
+    color:#000144;
+    text-transform: uppercase;
+    font-weight: 500
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    width: 300px;
+    border-color: #2ecc71
+}
+
+.box input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color:#000144;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer
+}
+
+.box input[type="submit"]:hover {
+    background: #2ecc71
+}
+
+.forgot {
+    text-decoration: underline
+}
+
+.social_icon2 ul {
+    margin: 0;
+    /* background-color: indigo !important; */
+    padding: 0;
+    list-style: none;
+    /* margin-left: 450px; */
+    margin-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.gap {
+    margin-right: 2px;
+}
+
+.social_icon2 ul li:first-child {
+    margin-left: 10px;
+    
+}
+
+.facebook {
+    background: #2a66b3;
+    border: 1px solid #2a66b3
+}
+
+.social_icon2 ul li a i {
+    margin-right: 5px;
+}
+
+.twitter {
+    background: #35bbec;
+    border: 1px solid #35bbec
+}
+
+.social_icon2 ul li a {
+    /* float: left; */
+    border-radius: 4px;
+    line-height: 40px;
+    color: #fff;
+    height: 40px;
+    width: 110px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding:10px 20px;
+}
+
+.google {
+    background: #e55644;
+    border: 1px solid #e55644
+}
+
+.facebook:hover {
+    background: #082b58;
+    border: 1px solid #082b58
+}
+
+.twitter:hover {
+    background: #0f607e;
+    border: 1px solid #0f607e
+}
+
+.google:hover {
+    background: #a52a1b;
+    border: 1px solid #a52a1b
+}
